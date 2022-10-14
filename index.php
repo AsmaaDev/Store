@@ -43,6 +43,105 @@
                 </div>
             </div>
         </nav>
+
+        <nav class="navbar navbar-expand-lg bg-secondary ">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item ">
+                    <a href="#" class="nav-link">welcome Guest</a>
+                </li>
+                <li class="nav-item float-right">
+                    <a href="#" class="nav-link">Login</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div class="bg-light">
+            <h3 class="text-center">Products</h3>
+            <p class="text-center">the page of all products</p>
+        </div>
+
+        <!--  displaying products and sidebar -->
+        <div class="row">
+            <!-- displaying products -->
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-4 mb-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/chocolate.jpg" class="card-img-top" alt="product">
+                            <div class="card-body">
+                                <h5 class="card-title">product name</h5>
+                                <p class="card-text">Some quick example text to build on the product name and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-info">Add to cart</a>
+                                <a href="#" class="btn btn-secondary">View more..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/chocolate2.jpg" class="card-img-top" alt="product">
+                            <div class="card-body">
+                                <h5 class="card-title">product name</h5>
+                                <p class="card-text">Some quick example text to build on the product name and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-info">Add to cart</a>
+                                <a href="#" class="btn btn-secondary">View more..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/chocolate3.jpg" class="card-img-top" alt="product">
+                            <div class="card-body">
+                                <h5 class="card-title">product name</h5>
+                                <p class="card-text">Some quick example text to build on the product name and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-info">Add to cart</a>
+                                <a href="#" class="btn btn-secondary">View more..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/chocolate4.jpg" class="card-img-top" alt="product">
+                            <div class="card-body">
+                                <h5 class="card-title">product name</h5>
+                                <p class="card-text">Some quick example text to build on the product name and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-info">Add to cart</a>
+                                <a href="#" class="btn btn-secondary">View more..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sidebar -->
+            <div class="col-md-2 bg-secondary p-0">
+                <!-- Brands to be displayed -->
+                <ul class="navbar-nav me-auto text-center">
+                    <li class="nav-item bg-info">
+                        <a href="#" class="nav-link text-light"><h4>Delivery Brands</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light">Brand1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light">Brand2</a>
+                    </li>
+                </ul>
+                <!-- Categories to be displayed -->
+                <ul class="navbar-nav me-auto text-center">
+                    <li class="nav-item bg-info">
+                        <a href="#" class="nav-link text-light"><h4>Categories</h4></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light">Category1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light">Category2</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
     </div>
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-32">
